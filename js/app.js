@@ -741,11 +741,8 @@ class App {
         }
 
         const main = document.createElement('main');
-        main.className = 'flex-grow';
-        
-        if (this.state.view === 'settings') {
-            main.className = 'flex-grow flex flex-col';
-        }
+        main.className = 'flex-grow flex flex-col';
+
         
         let contentHtml = '';
         switch (this.state.view) {
