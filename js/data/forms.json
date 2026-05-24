@@ -159,8 +159,7 @@
                         "opcoes": [
                             "Sim, ao longo do processo eu mudei de ideia e decidi manter o serviço.",
                             "Não, eu queria cancelar, mas o processo foi muito confuso/cansativo e eu desisti.",
-                            "Não, eu acreditei que havia concluído o cancelamento com sucesso.",
-                            "- Não se Aplica - "
+                            "Não, eu acreditei que havia concluído o cancelamento com sucesso."
                         ],
                         "condicao": {
                             "campo": "abandono",

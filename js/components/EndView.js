@@ -12,7 +12,7 @@ export const EndView = (message, pattern, abandonou) => {
                 <div id="screen-tcle" class="screen active p-6 sm:p-8">
                     <header class="mb-4 border-b border-gray-100 pb-3">
                         <h2 class="text-xl sm:text-2xl font-bold text-gray-900 mb-1 uppercase font-sans">TERMO DE CONSENTIMENTO LIVRE E ESCLARECIDO (TCLE)</h2>
-                        <p class="text-gray-500 text-sm font-medium">Consentimento Pós-Informação e Debriefing do Experimento</p>
+                        <p class="text-gray-500 text-sm font-medium">Consentimento Pós-Informação e Validação do Experimento</p>
                     </header>
                     
                     <p class="text-gray-700 text-sm sm:text-base mb-4 leading-relaxed text-justify">
@@ -22,7 +22,7 @@ export const EndView = (message, pattern, abandonou) => {
                     <div class="max-w-none text-gray-600 space-y-3 mb-4 text-xs sm:text-sm leading-relaxed text-justify border border-gray-100 p-4 rounded-xl bg-gray-50">
                         <div>
                             <h3 class="text-gray-900 font-semibold mb-1">1. Esclarecimento do Objetivo Real</h3>
-                            <p>Este experimento estuda o impacto de Padrões Obscuros de Interface (Dark Patterns), especificamente o padrão Roach Motel, no custo cognitivo e na tomada de decisão humana. Para que a sua reação à interface fosse autêntica e livre de biases, omitimos inicialmente que o fluxo de cancelamento deste teste continha barreiras visuais e textuais intencionais projetadas para induzir ao erro ou à desistência.</p>
+                            <p>Este experimento estuda o impacto de Padrões Obscuros de Interface (Dark Patterns), especificamente o padrão Roach Motel, no custo cognitivo e na tomada de decisão humana. Para que a sua reação à interface fosse autêntica e livre de vieses, omitimos inicialmente que o fluxo de cancelamento deste teste continha barreiras visuais e textuais intencionais projetadas para induzir ao erro ou à desistência.</p>
                         </div>
                         
                         <div>
@@ -33,6 +33,16 @@ export const EndView = (message, pattern, abandonou) => {
                         <div>
                             <h3 class="text-gray-900 font-semibold mb-1">3. Direitos e Consentimento de Uso (LGPD)</h3>
                             <p>Os dados computacionais de telemetria, capturados de forma anônima em segundo plano pelo simulador (tempo de execução do usuário, tempo de processamento da CPU, total de cliques, cliques errados e consumo de memória RAM), só serão computados em nossa base de dados estatística caso você dê o seu consentimento livre e esclarecido neste momento. Seus dados brutos serão mantidos em ambiente digital seguro e utilizados exclusivamente para este artigo acadêmico e potenciais publicações na área de Interação Humano-Computador.</p>
+                        </div>
+
+                        <div>
+                            <h3 class="text-gray-900 font-semibold mb-1">4. Contatos e Canais de Comunicação</h3>
+                            <p class="mb-2">Caso você tenha alguma dúvida sobre a pesquisa, queira retirar o seu consentimento de uso de dados posteriormente ou deseje acompanhar os resultados deste estudo, entre em contato com a equipe responsável:</p>
+                            <ul class="space-y-1 list-none pl-1 text-gray-600">
+                                <li>• Pesquisador Integrante: David Salviano - <a href="mailto:david52@alu.ufc.br" class="text-[#6455E5] hover:underline">david52@alu.ufc.br</a></li>
+                                <li>• Pesquisadora Integrante: Aryely Matos - <a href="mailto:aryelymatos@alu.ufc.br" class="text-[#6455E5] hover:underline">aryelymatos@alu.ufc.br</a></li>
+                                <li>• Pesquisadora Integrante: Thais Farias - <a href="mailto:thais.fcardoso@alu.ufc.br" class="text-[#6455E5] hover:underline">thais.fcardoso@alu.ufc.br</a></li>
+                            </ul>
                         </div>
                     </div>
 
