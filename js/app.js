@@ -21,7 +21,7 @@ document.addEventListener('click', function(evento) {
         return; 
     }
     const btnText = evento.target.closest('button') ? evento.target.closest('button').textContent.toLowerCase() : '';
-    if (btnText.includes('encerrar') || btnText.includes('enviar resposta') || btnText.includes('manter') || btnText.includes('finalizar')) {
+    if (btnText.includes('encerrar') || btnText.includes('enviar resposta') || btnText.includes('manter') || (btnText.includes('finalizar') && !btnText.includes('cancelamento'))) {
         return;
     }
     const clicouEmElementoInterativo = evento.target.closest('button, a, input, select, textarea');
